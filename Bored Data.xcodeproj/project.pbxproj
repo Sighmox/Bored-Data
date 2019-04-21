@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		79558F6F226D154400D512DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79558F6E226D154400D512DF /* AppDelegate.swift */; };
-		79558F71226D154400D512DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79558F70226D154400D512DF /* ViewController.swift */; };
+		79558F71226D154400D512DF /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79558F70226D154400D512DF /* ActivityTableViewController.swift */; };
 		79558F74226D154400D512DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79558F72226D154400D512DF /* Main.storyboard */; };
 		79558F77226D154400D512DF /* Bored_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79558F75226D154400D512DF /* Bored_Data.xcdatamodeld */; };
 		79558F79226D154800D512DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79558F78226D154800D512DF /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		79558F6B226D154400D512DF /* Bored Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bored Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79558F6E226D154400D512DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79558F70226D154400D512DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79558F70226D154400D512DF /* ActivityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
 		79558F73226D154400D512DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79558F76226D154400D512DF /* Bored_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bored_Data.xcdatamodel; sourceTree = "<group>"; };
 		79558F78226D154800D512DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				79558F6E226D154400D512DF /* AppDelegate.swift */,
-				79558F70226D154400D512DF /* ViewController.swift */,
+				79558F70226D154400D512DF /* ActivityTableViewController.swift */,
 				79558F72226D154400D512DF /* Main.storyboard */,
 				79558F78226D154800D512DF /* Assets.xcassets */,
 				79558F7A226D154800D512DF /* LaunchScreen.storyboard */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79558F77226D154400D512DF /* Bored_Data.xcdatamodeld in Sources */,
-				79558F71226D154400D512DF /* ViewController.swift in Sources */,
+				79558F71226D154400D512DF /* ActivityTableViewController.swift in Sources */,
 				79558F6F226D154400D512DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
